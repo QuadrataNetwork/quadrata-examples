@@ -9,9 +9,9 @@ This project implements the full examples found at the [Quadrata Documentation](
 Each onboarding section is in its own path under `src/app`.
 
 From the browser at `http://localhost:3000`
-- /all-in-one -> (All-In-One Passport Onboarding)[https://docs.quadrata.com/integration/how-to-integrate/onboard-users/all-in-one-passport-onboarding/4.-full-example]
-- /kyb - (Business Passport Onboarding)[https://docs.quadrata.com/integration/how-to-integrate/onboard-users/business-passport-onboarding/4.-full-example]
-- /kyc - (Individual Passport Onboarding)[https://docs.quadrata.com/integration/how-to-integrate/onboard-users/individual-passport-onboarding/6.-full-example]
+- /all-in-one -> [All-In-One Passport Onboarding](https://docs.quadrata.com/integration/how-to-integrate/onboard-users/all-in-one-passport-onboarding/4.-full-example)
+- /kyb - [Business Passport Onboarding](https://docs.quadrata.com/integration/how-to-integrate/onboard-users/business-passport-onboarding/4.-full-example)
+- /kyc - [Individual Passport Onboarding](https://docs.quadrata.com/integration/how-to-integrate/onboard-users/individual-passport-onboarding/6.-full-example)
 
 The components matching each page can be found at `src/components`
 - `src/components/quadrata/all-in-one/Quadrata.tsx`
@@ -48,7 +48,7 @@ npm run dev
 This is not a production ready application.
 
 This NextJS application serves as an example for how to integrate the different Quadrata Onboarding Applications as described at 
-(Onboard Users)[https://docs.quadrata.com/integration/how-to-integrate/onboard-users].
+[Onboard Users](https://docs.quadrata.com/integration/how-to-integrate/onboard-users).
 
 > Decide on the application flow you wish to support and modify the package.json dependencies so only the required packages are installed
 > for your desired flow.
