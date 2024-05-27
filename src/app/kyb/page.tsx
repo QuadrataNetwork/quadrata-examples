@@ -31,8 +31,10 @@ export default async function Kyb() {
   const { data: { accessToken } } = await getAccessToken();
   return (
     <MainLayout>
-        <h1 className="py-20 text-center text-3xl">
-          Business Onboarding
+        <div className="py-20 text-center">
+          <h1 className="text-3xl">
+            Business Onboarding
+          </h1>
           <p className="pt-5 text-xs">
             <a
               href="https://docs.quadrata.com/integration/how-to-integrate/onboard-users/business-passport-onboarding"
@@ -42,7 +44,7 @@ export default async function Kyb() {
               https://docs.quadrata.com/integration/how-to-integrate/onboard-users/business-passport-onboarding
             </a>
           </p>
-        </h1>
+        </div>
         <div className="flex flex-col items-center justify-between">
             <Quadrata 
               accessToken={accessToken}
