@@ -9,7 +9,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 const config = getDefaultConfig({
     appName: 'Quadrata Example App',
-    projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID,
+    projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID!,
     ssr: true,
     chains: [
         chains.arbitrum,

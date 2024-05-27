@@ -1,3 +1,5 @@
+'use server';
+
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { MainLayout } from '@/components/MainLayout';
